@@ -1,4 +1,4 @@
-# Assignment 8: While Loops
+# Assignment 9: While Loops
 
 This week, you'll be delving into the `while` loop construct to practice with
 indefinite (and infinite) looping. Looping is one of the most fundamental
@@ -18,7 +18,7 @@ patterns of use to start with.
 ## Assignment Structure
 
 The assignment is structured into the following exercise folders under the root
-folder `assn-8-yourusername/`:
+folder `assn-9-yourusername/`:
 
 - `01-get_int`
 - `02-blastoff`
