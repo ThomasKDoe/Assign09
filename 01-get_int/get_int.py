@@ -10,7 +10,22 @@ def get_int(prompt, min_val, max_val):
     line. The Python code you write to implement the function will start AFTER
     the docstring.
     """
-    return int(input(prompt))  # REPLACE ME!!!
+    while True:
+        user_val = input(prompt)
+        try:
+            number = int(user_val)
+        except ValueError:
+            print("NOT A NUMBER")
+            continue
+        if number < min_val or number > max_val:
+            print("OUT OF RANGE")
+            continue
+        return number
+    
+    
+
+        
+
 
 
 ###############################################################################
